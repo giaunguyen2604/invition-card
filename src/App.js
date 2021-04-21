@@ -61,6 +61,18 @@ function App() {
         <p><strong>Địa điểm:</strong> Số 1, Võ Văn Ngân, Thủ Đức, HCM (ngay ngã tư Thủ Đức)</p>
         <p><strong>Link google map:</strong> <a href="https://bom.to/aznaTLckt1iuu" target="_blank">Click vào đây nha</a></p>
       </div>
+      {friend && 
+      <>
+        <div className="after-uni">
+          <p>👉 Sau khi chụp hình xong, nếu bạn không có bận việc gì và thời tiết thuận lợi, mình di chuyển sang làng Đại học chơi nha</p>
+          <p>👉 Mình sẽ tập trung tại vòng xoay đại học quốc tế, sau đó di chuyển ra Hồ Đá nhé!</p>
+          <p>👉 Link google map đến Đại học Quốc tế: <a href="https://bom.to/JtN0Q9wodtNgd" target="_blank">Click here</a></p>
+          {friend.id===1548 && <p>🧍‍♂ Bạn Tiến chắc quen đường, nhờ Tiến dẫn đường nhé</p>}
+          {friend.id===4011 && <p>Hiếu: Sáng nhớ quan sát thời tiết, mua đồ dùm nhé ! :) </p>}
+          <p>📞 Contact: <a href="tel:0359627733">0359627733</a></p>
+        </div>
+      </>
+      }
     </>
 
   );

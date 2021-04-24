@@ -34,6 +34,10 @@ const listFriends = [
   {
     name: 'Phụng',
     id: 3878
+  },
+  {
+    name: 'Đ.Như',
+    id: 6745
   }
 ]
 

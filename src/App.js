@@ -65,7 +65,7 @@ function App() {
       <>
         <div className="after-uni">
           <p>👉 Sau khi chụp hình xong, nếu bạn không có bận việc gì và thời tiết thuận lợi, mình di chuyển sang làng Đại học chơi nha</p>
-          <p>👉 Mình sẽ tập trung tại vòng xoay đại học quốc tế, sau đó di chuyển ra Hồ Đá nhé!</p>
+          <p>👉 Mình sẽ tập trung tại vòng xoay đại học quốc tế, sau đó tìm quán nào ăn trưa và trò chuyện nhé!</p>
           <p>👉 Link google map đến Đại học Quốc tế: <a href="https://bom.to/JtN0Q9wodtNgd" target="_blank">Click here</a></p>
           {friend.id===1548 && <p>🧍‍♂ Bạn Tiến chắc quen đường, nhờ Tiến dẫn đường nhé</p>}
           {friend.id===4011 && <p>Hiếu: Sáng nhớ quan sát thời tiết, mua đồ dùm nhé ! :) </p>}
